@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Running form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1 class="text-center">
+    The Running form
+  </h1>
+  <p class = "text-center">
+    Finish this form and join us. The marathon is waiting for u!
+  </p>
+  <form class="container" id="needs-validation" novalidate>
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault01">First name</label>
+        <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault02">Last name</label>
+        <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"  required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 mb-2">
+        <label for="3">Age</label>
+        <input type="text" class="form-control" id="3" placeholder="Age" required>
+      </div>
+      <div class="col-md-2 mb-2">
+        <label for="4">T-shirt Size</label>
+        <select class="form-control" id="4" required>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+      <div class="col-md-2 mb-2">
+        <label for="5">Gender</label>
+        <select class="form-control" id="5" required>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+    </div>
+    <div class = "row">
+      <div class="col-md-6 mb-3">
+        <label>Address:</label>
+        <input type="text" class="form-control form-control-lg" placeholder="Street">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 mb-2">
+        <label for="6">City</label>
+        <input type="text" class="form-control" id="6" placeholder="city" required>
+      </div>
+      <div class="col-md-2 mb-2">
+        <label for="7">State</label>
+        <input type="text" class="form-control" id="7" placeholder="State" required>
+      </div>
+      <div class="col-md-2 mb-1">
+        <label for="8">Zip</label>
+        <input type="text" class="form-control" id="8" placeholder="zip" required>
+      </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </form>
+</body>
+</html>
